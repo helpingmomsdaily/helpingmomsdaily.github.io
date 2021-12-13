@@ -2,19 +2,24 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+	margin: 2%;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #F4C2C2;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,25 +27,29 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #89CFF0;
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+li {
+  list-style: none;
+}
+
+  li::before{
+
+    content: "\27A4  ";
 }
 </style>
 </head>
 <body>
-
 <div class="topnav">
   <a href="index.html">Home</a>
   <a href="Baby Basics.html">Baby Basics</a>
   <a href="New Mom Mental Health.html">New Mom Mental Health</a>
 </div>
-
-<ul>
+<main>
+  <h1>New Mom Mental Health</h1>
+  <ul>
     <li><a href="Rest and Sleep.html">Rest and Sleep</a></li>
     <li><a href="Emotional Changes.html">Emotional Changes</a></li>
     <li><a href="Handling Pain.html">Handling Pain</a></li>
@@ -51,5 +60,5 @@ body {
         <li>McLeod Health</li>
         <li>Healthcare Professionals: Georgia Beasley, RN</li>
         </ul>
-</body>
+  </main></body>
 </html>
